@@ -1,7 +1,15 @@
 #include <iostream>
 #include <vector>
+#include <string>
 
 using namespace std;
+
+void PrintHello() {
+    string name = "twb";
+    int age = 18;
+    cout << "name: " << name << " , age = " << age << endl;
+}
+
 
 int main() {
     vector<int> arr;
